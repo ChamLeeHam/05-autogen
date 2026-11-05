@@ -1,0 +1,17 @@
+[project]
+name = "agent-autogen-case"
+version = "0.1.0"
+description = "基于AutoGen实现的多智能体协作编程系统实战案例"
+requires-python = ">=3.11, <3.14"
+dependencies = [
+    "python-dotenv==1.1.1",
+    "openai==2.3.0",
+    "tiktoken==0.12.0",
+    "autogen-agentchat==0.7.5",
+    "autogen-core==0.7.5",
+    "autogen-ext==0.7.5",
+    "chainlit>=2.12.0",
+]
+[[tool.uv.index]]
+url = "https://mirrors.aliyun.com/pypi/simple/"
+default = true
